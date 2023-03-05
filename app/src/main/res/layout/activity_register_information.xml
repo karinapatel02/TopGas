@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterInformation"
+    android:background="#FFFFFF">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="405dp"
+        android:layout_height="605dp"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/signInButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Create New Account"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/personalLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="15dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="Input Personal Info" />
+
+            <EditText
+                android:id="@+id/inputName"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@id/personalLabel"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Full Name"
+                android:inputType="text"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="viewStart"
+                android:textSize="20dp"
+                android:layout_marginRight="25dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:paddingLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp">
+                <Spinner
+                    android:id="@+id/ISDCode"
+                    android:layout_width="65dp"
+                    android:layout_height="48dp"
+                    android:layout_below="@id/vehicleLabel"
+                    android:background="@android:drawable/btn_dropdown"
+                    android:spinnerMode="dropdown"
+                    android:entries="@array/ISDCode"
+                    />
+
+                <EditText
+                    android:id="@+id/inputContactNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_below="@id/personalLabel"
+                    android:ems="10"
+                    android:hint="Mobile Number"
+                    android:inputType="number"
+                    android:layout_marginLeft="15dp"
+                    android:textAlignment="viewStart"
+                    android:textSize="20dp"
+                    android:maxLength="10"
+                    />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/inputAddress1"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@id/inputName"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Address1"
+                android:inputType="text"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="viewStart"
+                android:textSize="20dp"
+                android:layout_marginRight="25dp"/>
+
+
+            <EditText
+                android:id="@+id/inputStreet"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@id/inputAddress1"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Street"
+                android:inputType="text"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="viewStart"
+                android:textSize="20dp"
+                android:layout_marginRight="25dp"/>
+
+
+            <EditText
+                android:id="@+id/inputCity"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@id/inputStreet"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="City"
+                android:inputType="text"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="viewStart"
+                android:textSize="20dp"
+                android:layout_marginRight="25dp"/>
+
+
+            <EditText
+                android:id="@+id/inputState"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@id/inputCity"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="State"
+                android:inputType="text"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="viewStart"
+                android:textSize="20dp"
+                android:layout_marginRight="25dp"/>
+
+            <EditText
+                android:id="@+id/inputZipcode"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@id/inputState"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Zipcode"
+                android:inputType="number"
+                android:maxLength="5"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="viewStart"
+                android:textSize="20dp"
+                android:layout_marginRight="25dp"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/scrollView"
+
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:text="Register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp"/>
+    <!--        </RelativeLayout>-->
+<!--    </ScrollView>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

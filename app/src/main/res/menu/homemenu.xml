@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:checkableBehavior="single">
+    <item android:id="@+id/nav_home" android:title="Home"
+        android:icon="@drawable/ic_home"/>
+
+    <item android:id="@+id/nav_setting" android:title="Settings"
+        android:icon="@drawable/ic_username"/>
+
+    <item android:id="@+id/nav_vehicle" android:title="Manage Vehicle"
+        android:icon="@drawable/ic_vehicle"/>
+
+    <item android:id="@+id/nav_history" android:title="Orders"
+        android:icon="@drawable/ic_history"/>
+
+
+</group>
+
+
+        <item android:title="General Topic">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item android:id="@+id/nav_faq" android:title="FAQ"
+                        android:icon="@drawable/ic_helpandsupport"/>
+
+                    <item android:id="@+id/nav_rateus" android:title="Rate Us"
+                        android:icon="@drawable/ic_rateus"/>
+
+                    <item android:id="@+id/nav_help" android:title="How To?"
+                        android:icon="@drawable/ic_helpandsupport"/>
+
+                    <item android:id="@+id/nav_logout" android:title="Logout"
+                        android:icon="@drawable/ic_logout"/>
+                </group>
+            </menu>
+        </item>
+
+</menu>

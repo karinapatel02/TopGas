@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterInformation"
+    android:background="#FFFFFF">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="605dp"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Add New Vehicle"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/vehicleLabel"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/inputZipcode"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Input Vehicle Info"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/inputBrand"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@id/vehicleLabel"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+
+
+            <EditText
+                android:id="@+id/inputModel"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@id/inputBrand"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:ems="10"
+                android:hint="Model"
+                android:inputType="text"
+                android:textAlignment="viewStart"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/inputPlate"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@id/inputModel"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:ems="10"
+                android:hint="Plate No."
+                android:inputType="text"
+                android:textAlignment="viewStart"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/inputFuel"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@id/inputPlate"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+
+            <EditText
+                android:id="@+id/inputMakeYear"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@id/inputFuel"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:ems="10"
+                android:hint="Make Year"
+                android:inputType="text"
+                android:textAlignment="viewStart"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/signInButton"
+            android:layout_width="204dp"
+            android:layout_height="50dp"
+            android:textColor="@android:color/white"
+            android:background="#F56245"
+            android:text="Register"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"/>
+        <Button
+            android:id="@+id/skipButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@android:color/white"
+            android:background="#F56245"
+            android:text="Skip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            android:layout_marginRight="3dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

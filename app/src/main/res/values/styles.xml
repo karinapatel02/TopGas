@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="Widget.Theme.TopGas.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.TopGas.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">#000000</item>
+
+    </style>
+
+    <style name="menustyle"
+        parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+</resources>

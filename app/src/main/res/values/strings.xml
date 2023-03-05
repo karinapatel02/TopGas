@@ -1,0 +1,241 @@
+<resources>
+    <string name="app_name">TopGas</string>
+    <string name="title_activity_flash_screen">FlashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string-array name="ISDCode">
+        <item>+93 (Afghanistan )</item>
+        <item>+355 (Albania )</item>
+        <item>+213 (Algeria )</item>
+        <item>+1 (American Samoa)</item>
+        <item>+376 (Andorra, Principality of )</item>
+        <item>+244 (Angola)</item>
+        <item>+1 (Anguilla )</item>
+        <item>+672 (Antarctica)</item>
+        <item>+1 (Antigua and Barbuda)</item>
+        <item>+54 (Argentina )</item>
+        <item>+374 (Armenia)</item>
+        <item>+297 (Aruba)</item>
+        <item>+61 (Australia)</item>
+        <item>+43 (Austria)</item>
+        <item>+994 (Azerbaijan or Azerbaidjan (Former Azerbaijan Soviet Socialist Republic))</item>
+        <item>+1 (Bahamas, Commonwealth of The)</item>
+        <item>+973 (Bahrain, Kingdom of (Former Dilmun))</item>
+        <item>+880 (Bangladesh (Former East Pakistan))</item>
+        <item>+1 (Barbados )</item>
+        <item>+375 (Belarus (Former Belorussian [Byelorussian] Soviet Socialist Republic))</item>
+        <item>+32 (Belgium )</item>
+        <item>+501 (Belize (Former British Honduras))</item>
+        <item>+229 (Benin (Former Dahomey))</item>
+        <item>+1 (Bermuda )</item>
+        <item>+975 (Bhutan, Kingdom of)</item>
+        <item>+591 (Bolivia )</item>
+        <item>+387 (Bosnia and Herzegovina )</item>
+        <item>+267 (Botswana (Former Bechuanaland))</item>
+        <item>+55 (Brazil )</item>
+        <item>+673 (Brunei (Negara Brunei Darussalam) )</item>
+        <item>+359 (Bulgaria )</item>
+        <item>+226 (Burkina Faso (Former Upper Volta))</item>
+        <item>+257 (Burundi (Former Urundi))</item>
+        <item>+855 (Cambodia, Kingdom of (Former Khmer Republic, Kampuchea Republic))</item>
+        <item>+237 (Cameroon (Former French Cameroon))</item>
+        <item>+1 (Canada )</item>
+        <item>+238 (Cape Verde )</item>
+        <item>+1 (Cayman Islands )</item>
+        <item>+236 (Central African Republic )</item>
+        <item>+235 (Chad )</item>
+        <item>+56 (Chile )</item>
+        <item>+86 (China )</item>
+        <item>+53 (Christmas Island )</item>
+        <item>+61 (Cocos (Keeling) Islands )</item>
+        <item>+57 (Colombia )</item>
+        <item>+269 (Comoros, Union of the )</item>
+        <item>+243 (Congo, Democratic Republic of the (Former Zaire) )</item>
+        <item>+242 (Congo, Republic of the)</item>
+        <item>+682 (Cook Islands (Former Harvey Islands))</item>
+        <item>+506 (Costa Rica )</item>
+        <item>+225 (Cote DIvoire (Former Ivory Coast) )</item>
+        <item>+385 (Croatia (Hrvatska) )</item>
+        <item>+53 (Cuba )</item>
+        <item>+357 (Cyprus )</item>
+        <item>+420 (Czech Republic)</item>
+        <item>+45 (Denmark )</item>
+        <item>+253 (Djibouti (Former French Territory of the Afars and Issas, French Somaliland))</item>
+        <item>+1 (Dominica )</item>
+        <item>+1 (Dominican Republic )</item>
+        <item>+670 (East Timor (Former Portuguese Timor))</item>
+        <item>+593  (Ecuador )</item>
+        <item>+20 (Egypt (Former United Arab Republic - with Syria))</item>
+        <item>+503 (El Salvador )</item>
+        <item>+240 (Equatorial Guinea (Former Spanish Guinea))</item>
+        <item>+291 (Eritrea (Former Eritrea Autonomous Region in Ethiopia))</item>
+        <item>+372 (Estonia (Former Estonian Soviet Socialist Republic))</item>
+        <item>+251 (Ethiopia (Former Abyssinia, Italian East Africa))</item>
+        <item>+500 (Falkland Islands (Islas Malvinas) )</item>
+        <item>+298 (Faroe Islands )</item>
+        <item>+679 (Fiji )</item>
+        <item>+358 (Finland )</item>
+        <item>+33 (France )</item>
+        <item>+594 (French Guiana or French Guyana )</item>
+        <item>+689 (French Polynesia (Former French Colony of Oceania))</item>
+        <item>+241 (Gabon (Gabonese Republic))</item>
+        <item>+220 (Gambia, The )</item>
+        <item>+995 (Georgia (Former Georgian Soviet Socialist Republic))</item>
+        <item>+49 (Germany )</item>
+        <item>+233 (Ghana (Former Gold Coast))</item>
+        <item>+350 (Gibraltar )</item>
+        <item>+30 (Greece )</item>
+        <item>+299 (Greenland )</item>
+        <item>+1 (Grenada )</item>
+        <item>+590 (Guadeloupe)</item>
+        <item>+1 (Guam)</item>
+        <item>+502 (Guatemala )</item>
+        <item>+224 (Guinea (Former French Guinea))</item>
+        <item>+245 (Guinea-Bissau (Former Portuguese Guinea))</item>
+        <item>+592 (Guyana (Former British Guiana))</item>
+        <item>+509 (Haiti )</item>
+        <item>+504 (Honduras )</item>
+        <item>+852 (Hong Kong )</item>
+        <item>+36 (Hungary )</item>
+        <item>+354 (Iceland )</item>
+        <item>+91 (India )</item>
+        <item>+62 (Indonesia (Former Netherlands East Indies; Dutch East Indies))</item>
+        <item>+98 (Iran, Islamic Republic of)</item>
+        <item>+964 (Iraq )</item>
+        <item>+353 (Ireland )</item>
+        <item>+972 (Israel )</item>
+        <item>+39 (Italy )</item>
+        <item>+1 (Jamaica )</item>
+        <item>+81 (Japan )</item>
+        <item>+962 (Jordan (Former Transjordan))</item>
+        <item>+7 (Kazakstan or Kazakhstan (Former Kazakh Soviet Socialist Republic))</item>
+        <item>+254 (Kenya (Former British East Africa))</item>
+        <item>+686 (Kiribati (Pronounced keer-ree-bahss) (Former Gilbert Islands))</item>
+        <item>+850 (Korea, Democratic Peoples Republic of (North Korea))</item>
+        <item>+82 (Korea, Republic of (South Korea) )</item>
+        <item>+965 (Kuwait )</item>
+        <item>+996 (Kyrgyzstan (Kyrgyz Republic) (Former Kirghiz Soviet Socialist Republic))</item>
+        <item>+856 (Lao Peoples Democratic Republic (Laos))</item>
+        <item>+371 (Latvia (Former Latvian Soviet Socialist Republic))</item>
+        <item>+961 (Lebanon )</item>
+        <item>+266 (Lesotho (Former Basutoland))</item>
+        <item>+231 (Liberia )</item>
+        <item>+218 (Libya (Libyan Arab Jamahiriya))</item>
+        <item>+423 (Liechtenstein )</item>
+        <item>+370 (Lithuania (Former Lithuanian Soviet Socialist Republic))</item>
+        <item>+352 (Luxembourg )</item>
+        <item>+853 (Macau )</item>
+        <item>+389 (Macedonia, The Former Yugoslav Republic of)</item>
+        <item>+261 (Madagascar (Former Malagasy Republic))</item>
+        <item>+265 (Malawi (Former British Central African Protectorate, Nyasaland))</item>
+        <item>+60 (Malaysia )</item>
+        <item>+960 (Maldives )</item>
+        <item>+223 (Mali (Former French Sudan and Sudanese Republic) )</item>
+        <item>+356 (Malta )</item>
+        <item>+692 (Marshall Islands (Former Marshall Islands District - Trust Territory of the Pacific Islands))</item>
+        <item>+596 (Martinique (French) )</item>
+        <item>+222 (Mauritania )</item>
+        <item>+230 (Mauritius )</item>
+        <item>+269 (Mayotte (Territorial Collectivity of Mayotte))</item>
+        <item>+52 (Mexico )</item>
+        <item>+691 (Micronesia, Federated States of (Former Ponape, Truk, and Yap Districts - Trust Territory of the Pacific Islands))</item>
+        <item>+373 (Moldova, Republic of)</item>
+        <item>+377 (Monaco, Principality of)</item>
+        <item>+976 (Mongolia (Former Outer Mongolia))</item>
+        <item>+1 (Montserrat )</item>
+        <item>+212 (Morocco )</item>
+        <item>+258 (Mozambique (Former Portuguese East Africa))</item>
+        <item>+95 (Myanmar, Union of (Former Burma))</item>
+        <item>+264 (Namibia (Former German Southwest Africa, South-West Africa))</item>
+        <item>+674 (Nauru (Former Pleasant Island))</item>
+        <item>+977 (Nepal )</item>
+        <item>+31 (Netherlands )</item>
+        <item>+599 (Netherlands Antilles (Former Curacao and Dependencies))</item>
+        <item>+687 (New Caledonia )</item>
+        <item>+64 (New Zealand (Aotearoa) )</item>
+        <item>+505 (Nicaragua )</item>
+        <item>+227 (Niger )</item>
+        <item>+234 (Nigeria )</item>
+        <item>+683 (Niue (Former Savage Island))</item>
+        <item>+672 (Norfolk Island )</item>
+        <item>+1 (Northern Mariana Islands (Former Mariana Islands District - Trust Territory of the Pacific Islands))</item>
+        <item>+47 (Norway )</item>
+        <item>+968 (Oman, Sultanate of (Former Muscat and Oman))</item>
+        <item>+92 (Pakistan (Former West Pakistan))</item>
+        <item>+680 (Palau (Former Palau District - Trust Terriroty of the Pacific Islands))</item>
+        <item>+970 (Palestinian State (Proposed))</item>
+        <item>+507 (Panama )</item>
+        <item>+675 (Papua New Guinea (Former Territory of Papua and New Guinea))</item>
+        <item>+595 (Paraguay )</item>
+        <item>+51 (Peru )</item>
+        <item>+63 (Philippines )</item>
+        <item>+48 (Poland )</item>
+        <item>+351 (Portugal )</item>
+        <item>+1 (Puerto Rico )</item>
+        <item>+974  (Qatar, State of )</item>
+        <item>+262 (Reunion (French) (Former Bourbon Island))</item>
+        <item>+40 (Romania )</item>
+        <item>+7 (Russian Federation )</item>
+        <item>+250 (Rwanda (Rwandese Republic) (Former Ruanda))</item>
+        <item>+290 (Saint Helena )</item>
+        <item>+1 (Saint Kitts and Nevis (Former Federation of Saint Christopher and Nevis))</item>
+        <item>+1 (Saint Lucia )</item>
+        <item>+508 (Saint Pierre and Miquelon )</item>
+        <item>+1 (Saint Vincent and the Grenadines )</item>
+        <item>+685 (Samoa (Former Western Samoa))</item>
+        <item>+378 (San Marino )</item>
+        <item>+239 (Sao Tome and Principe )</item>
+        <item>+966 (Saudi Arabia )</item>
+        <item>+221 (Senegal )</item>
+        <item>+248 (Seychelles )</item>
+        <item>+232 (Sierra Leone )</item>
+        <item>+65 (Singapore )</item>
+        <item>+421 (Slovakia)</item>
+        <item>+386 (Slovenia )</item>
+        <item>+677 (Solomon Islands (Former British Solomon Islands))</item>
+        <item>+252 (Somalia (Former Somali Republic, Somali Democratic Republic) )</item>
+        <item>+27 (South Africa (Former Union of South Africa))</item>
+        <item>+34 (Spain )</item>
+        <item>+94 (Sri Lanka (Former Serendib, Ceylon) )</item>
+        <item>+249 (Sudan (Former Anglo-Egyptian Sudan) )</item>
+        <item>+597 (Suriname (Former Netherlands Guiana, Dutch Guiana))</item>
+        <item>+268 (Swaziland, Kingdom of )</item>
+        <item>+46 (Sweden )</item>
+        <item>+41 (Switzerland )</item>
+        <item>+963 (Syria (Syrian Arab Republic) (Former United Arab Republic - with Egypt))</item>
+        <item>+886 (Taiwan (Former Formosa))</item>
+        <item>+992 (Tajikistan (Former Tajik Soviet Socialist Republic))</item>
+        <item>+255 (Tanzania, United Republic of (Former United Republic of Tanganyika and Zanzibar))</item>
+        <item>+66 (Thailand (Former Siam))</item>
+        <item>+690 (Tokelau )</item>
+        <item>+676 (Tonga, Kingdom of (Former Friendly Islands))</item>
+        <item>+1 (Trinidad and Tobago )</item>
+        <item>+216 (Tunisia )</item>
+        <item>+90 (Turkey )</item>
+        <item>+993 (Turkmenistan (Former Turkmen Soviet Socialist Republic))</item>
+        <item>+1 (Turks and Caicos Islands )</item>
+        <item>+688 (Tuvalu (Former Ellice Islands))</item>
+        <item>+256 (Uganda, Republic of)</item>
+        <item>+380 (Ukraine (Former Ukrainian National Republic, Ukrainian State, Ukrainian Soviet Socialist Republic))</item>
+        <item>+971 (United Arab Emirates (UAE) (Former Trucial Oman, Trucial States))</item>
+        <item>+44 (United Kingdom (Great Britain / UK))</item>
+        <item>+1 (United States )</item>
+        <item>+598 (Uruguay, Oriental Republic of (Former Banda Oriental, Cisplatine Province))</item>
+        <item>+998 (Uzbekistan (Former UZbek Soviet Socialist Republic))</item>
+        <item>+678 (Vanuatu (Former New Hebrides))</item>
+        <item>+418 (Vatican City State (Holy See))</item>
+        <item>+58 (Venezuela )</item>
+        <item>+84 (Vietnam )</item>
+        <item>+1 (Virgin Islands, British )</item>
+        <item>+1 (Virgin Islands, United States (Former Danish West Indies) )</item>
+        <item>+681 (Wallis and Futuna Islands )</item>
+        <item>+967 (Yemen )</item>
+        <item>+260 (Zambia, Republic of (Former Northern Rhodesia) )</item>
+        <item>+263 (Zimbabwe, Republic of (Former Southern Rhodesia, Rhodesia))</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
